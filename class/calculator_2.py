@@ -17,10 +17,6 @@ class Calc():
         return self.num1/self.num2
 
 
-
-
-
-
 calc = Calc()
 calc.set_number(20, 10)
 print(calc.plus()) # 더한 값

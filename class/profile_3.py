@@ -1,15 +1,5 @@
 class Profile():
 
-    def __init__(self):
-        self.profile = {
-            "name": "-",
-            "gender": "-",
-            "birthday": "-",
-            "age": 0,
-            "phone": "-",
-            "email": "-"
-        }
-
     def set_profile(self, profile):
         self.profile = profile
 
@@ -30,8 +20,6 @@ class Profile():
 
     def email(self):
         return self.profile["email"]
-
-
 
 profile = Profile()
 profile.set_profile({
